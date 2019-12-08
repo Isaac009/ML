@@ -12,7 +12,7 @@ DCGAN Architecture
 ### Install 
 * [TensorFlow](https://www.tensorflow.org/install/)
 * [Matplotlib](https://matplotlib.org/)
-* [Imageio] (https://imageio.readthedocs.io/en/stable/installation.html)
+* [Imageio](https://imageio.readthedocs.io/en/stable/installation.html)
 * [Numpy](https://docs.scipy.org/doc/numpy/user/install.html)
 
 ## Train
