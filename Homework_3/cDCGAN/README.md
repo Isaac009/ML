@@ -22,10 +22,10 @@ If you cloned the whole repository
 python Homework_3/src/tensorflow_MNIST_cDCGAN.py
 ```
 ## My result for Discriminator and Generator Loss
-![](Homework_3/cDCGAN/MNIST_cDCGAN_train_hist.png)
+![](MNIST_cDCGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](Homework_3/cDCGAN/MNIST_cDCGAN_generation_animation.gif)
+![](MNIST_cDCGAN_generation_animation.gif)
 
 ## Use Pretrained Model
 ### Load the model 
@@ -35,10 +35,10 @@ python Homework_3/src/tensorflow_MNIST_cDCGAN.py
 python Homework_3/src/tensorflow_F_MNIST_cDCGAN.py
 ```
 ## My result for Discriminator and Generator Loss
-![](Homework_3/cDCGAN/Fashion_MNIST_cDCGAN_train_hist.png)
+![](Fashion_MNIST_cDCGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](Homework_3/cDCGAN/Fashion_MNIST_cDCGAN_generation_animation.gif)
+![](Fashion_MNIST_cDCGAN_generation_animation.gif)
 
 ## Use Pretrained Model
 ### Load the model 
