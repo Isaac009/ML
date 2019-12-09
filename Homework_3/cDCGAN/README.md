@@ -19,7 +19,7 @@ DCGAN Architecture
 If you cloned the whole repository 
 ### Classic MNIST 
 ```bash
-python Homework_3/src/tensorflow_MNIST_cDCGAN.py
+python Homework_3/cDCGAN/tensorflow_MNIST_cDCGAN.py
 ```
 ## My result for Discriminator and Generator Loss
 ![](MNIST_cDCGAN_train_hist.png)
@@ -32,7 +32,7 @@ python Homework_3/src/tensorflow_MNIST_cDCGAN.py
 
 ### Fashion MNIST 
 ```bash
-python Homework_3/src/tensorflow_F_MNIST_cDCGAN.py
+python Homework_3/cDCGAN/tensorflow_F_MNIST_cDCGAN.py
 ```
 ## My result for Discriminator and Generator Loss
 ![](HW_F_MNIST_cDCGAN_train_hist.png)
