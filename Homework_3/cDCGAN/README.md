@@ -6,7 +6,7 @@ DCGAN is one of the popular and successful network design for GAN. It mainly com
 
 DCGAN Architecture
 
-![](imgs/vanilla_gan_detailed_arch.png)
+![](DCGAN.png)
 
 # How to run
 ### Install 
