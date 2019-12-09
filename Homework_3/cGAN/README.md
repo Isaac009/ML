@@ -7,12 +7,13 @@ The conditional generative adversarial network, or cGAN for short, is a type of 
 CGAN Architecture
 
 ![](imgs/cGAN.png)
+x is a given input image or generated image by generator G when provided with random noise and target label y, fed to Discriminator D, so that D can tell if the image is real image or fake/generated image.
 
 # How to run
 ### Install 
 * [TensorFlow](https://www.tensorflow.org/install/)
 * [Matplotlib](https://matplotlib.org/)
-* [Imageio] (https://imageio.readthedocs.io/en/stable/installation.html)
+* [Imageio](https://imageio.readthedocs.io/en/stable/installation.html)
 * [Numpy](https://docs.scipy.org/doc/numpy/user/install.html)
 
 ## Train CGAN
