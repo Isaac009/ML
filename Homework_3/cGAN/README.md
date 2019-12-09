@@ -23,10 +23,10 @@ If you cloned the whole repository
 python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ```
 ## My result for Discriminator and Generator Loss
-![](Homework_3/cGAN/MNIST_cGAN_train_hist.png)
+![](MNIST_cGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](Homework_3/cGAN/MNIST_cGAN_generation_animation.gif)
+![](MNIST_cGAN_generation_animation.gif)
 
 ## Use Pretrained Model
 ### Load the model 
@@ -36,10 +36,10 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ```
 ## My result for Discriminator and Generator Loss
-![](Homework_3/cGAN/Fashion_MNIST_cGAN_train_hist.png)
+![](Fashion_MNIST_cGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](Homework_3/cGAN/Fashion_MNIST_cGAN_generation_animation.gif)
+![](Fashion_MNIST_cGAN_generation_animation.gif)
 
 ## Use Pretrained Model
 ### Load the model 
