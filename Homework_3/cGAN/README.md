@@ -20,7 +20,7 @@ x is a given input image or generated image by generator G when provided with ra
 If you cloned the whole repository 
 ### Classic MNIST 
 ```bash
-python Homework_3/src/tensorflow_MNIST_cGAN.py
+python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ```
 ## My result for Discriminator and Generator Loss
 ![](Homework_3/cGAN/MNIST_cGAN_train_hist.png)
@@ -33,7 +33,7 @@ python Homework_3/src/tensorflow_MNIST_cGAN.py
 
 ### Fashion MNIST 
 ```bash
-python Homework_3/src/tensorflow_F_MNIST_cGAN.py
+python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ```
 ## My result for Discriminator and Generator Loss
 ![](Homework_3/cGAN/Fashion_MNIST_cGAN_train_hist.png)
