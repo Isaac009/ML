@@ -1,7 +1,7 @@
 # Machine-Learning-2019
 Assignments repository
 
-# DCGAN
+# cDCGAN
 DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator.
 
 DCGAN Architecture
@@ -35,10 +35,10 @@ python Homework_3/src/tensorflow_MNIST_cDCGAN.py
 python Homework_3/src/tensorflow_F_MNIST_cDCGAN.py
 ```
 ## My result for Discriminator and Generator Loss
-![](Fashion_MNIST_cDCGAN_train_hist.png)
+![](HW_F_MNIST_cDCGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](Fashion_MNIST_cDCGAN_generation_animation.gif)
+![](HW_F_MNIST_cDCGAN_generation_animation.gif)
 
 ## Use Pretrained Model
 ### Load the model 
