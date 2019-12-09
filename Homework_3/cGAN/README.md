@@ -1,12 +1,12 @@
 # Machine-Learning-2019
 Assignments repository
 
-# DCGAN
-DCGAN is one of the popular and successful network design for GAN. It mainly composes of convolution layers without max pooling or fully connected layers. It uses convolutional stride and transposed convolution for the downsampling and the upsampling. The figure below is the network design for the generator.
+# [CGAN (Conditional Generative Adversarial Network)](https://arxiv.org/abs/1411.1784.pdf) 
+The conditional generative adversarial network, or cGAN for short, is a type of GAN that involves the conditional generation of images by a generator model. Image generation can be conditional on a class label, if available, allowing the targeted generated of images of a given type..
 
-DCGAN Architecture
+CGAN Architecture
 
-![](imgs/vanilla_gan_detailed_arch.png)
+![](imgs/cGAN.png)
 
 # How to run
 ### Install 
