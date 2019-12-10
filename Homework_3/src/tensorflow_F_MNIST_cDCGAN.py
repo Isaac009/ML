@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
-fmnist = input_data.read_data_sets('data/fashion', one_hot=True, reshape=[])
+fmnist = input_data.read_data_sets('../data/fashion', one_hot=True, reshape=[])
 # leaky_relu
 def lrelu(X, leak=0.2):
     f1 = 0.5 * (1 + leak)
@@ -127,8 +127,6 @@ batch_size = 100
 train_epoch = 30
 global_step = tf.Variable(0, trainable=False)
 lr = tf.train.exponential_decay(0.0002, global_step, 500, 0.95, staircase=True)
-# load MNIST
-# mnist = input_data.read_data_sets("MNIST_data/", one_hot=True, reshape=[])
 
 # variables : input
 x = tf.placeholder(tf.float32, shape=(None, img_size, img_size, 1))
@@ -168,31 +166,8 @@ sess = tf.InteractiveSession()
 tf.global_variables_initializer().run()
 
 # MNIST resize and normalization
-# train_set = tf.image.resize_images(mnist.train.images, [img_size, img_size]).eval()
-# train_set = (train_set - 0.5) / 0.5  # normalization; range: -1 ~ 1
-train_set = (fmnist.train.images - 0.5) / 0.5
+train_set = (fmnist.train.images - 0.5) / 0.5 # normalization; range: -1 ~ 1
 train_label = fmnist.train.labels
-
-# fashion_mnist = keras.datasets.fashion_mnist
-# (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
-# train_ = np.append(train_images, test_images, axis=0)
-# train_set = train_  / 255.0
-# train_labels = np.append(train_labels, test_labels, axis=0)
-
-# n_values = np.max(train_labels) + 1
-# train_label = np.eye(n_values)[train_labels]
-
-# train_label = np.zeros((train_labels.size, train_labels.max()+1))
-# train_label[np.arange(train_label.size),train_label] = 1
-# for label in train_labels:
-#     init_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-#     init_list[label] = 1
-#     train_label.append(init_list)
-
-# Flatten the list to meet required dimensions from 28*28 to 784
-# train_set = []
-# for sublist in train_set_:
-#     train_set.append(sublist.flatten())
 
 # results save folder
 root = 'HW_F_MNIST_cDCGAN_results/'
@@ -267,11 +242,5 @@ for e in range(train_epoch):
     img_name = root + 'Fixed_results/' + model + str(e + 1) + '.png'
     images.append(imageio.imread(img_name))
 imageio.mimsave(root + model + 'generation_animation.gif', images, fps=5)
-
-# images = []
-# for e in range(train_epoch):
-#     img_name = root + 'Fixed_results/' + model + str(e + 1) + '.png'
-#     images.append(imageio.imread(img_name))
-# imageio.mimsave(root + model + 'generation_animation.gif', images, fps=5)
 
 sess.close()
