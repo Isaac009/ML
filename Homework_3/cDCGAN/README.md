@@ -24,7 +24,7 @@ python Homework_3/cDCGAN/tensorflow_MNIST_cDCGAN.py
 ## My result for Discriminator and Generator Loss
 ![](MNIST_cDCGAN_train_hist.png)
 
-## With this loss the generator output the following image sequence in gif
+## With this loss the generator output the following images
 ![](MNIST_cDCGAN_generation_animation.gif)
 
 ## Use Pretrained Model
@@ -37,7 +37,7 @@ python Homework_3/cDCGAN/tensorflow_F_MNIST_cDCGAN.py
 ## My result for Discriminator and Generator Loss
 ![](HW_F_MNIST_cDCGAN_train_hist.png)
 
-## With this loss the generator output the following image sequence in gif
+## With this loss the generator output the following images
 ![](HW_F_MNIST_cDCGAN_generation_animation.gif)
 
 ## Use Pretrained Model
