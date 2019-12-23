@@ -23,10 +23,12 @@ Select session then set a working directory where the generated images will be s
 Then, on r studio just select the line to execute and click run otherwise select all file scipt and click run
 ```
 ## My result for Discriminator and Generator Loss
-![](Homework_3/cDCGAN/MNIST_cDCGAN_train_hist.png)
 
-## With this loss the generator output the following image sequence in gif
-![](Homework_3/cDCGAN/MNIST_cDCGAN_generation_animation.gif)
+## Generator Output after 150 training iteration steps
+![](mnist.gif)
+
+## Generator Output after 300 training iteration steps
+![](r_f_mnist.gif)
 
 ## Use Pretrained Model
 ### Load the model 
