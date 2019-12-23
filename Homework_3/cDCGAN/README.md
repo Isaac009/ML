@@ -30,7 +30,7 @@ python Homework_3/cDCGAN/tensorflow_MNIST_cDCGAN.py
 ## My result for Discriminator and Generator Loss
 ![](MNIST_cDCGAN_train_hist.png)
 
-## With this loss the generator output the following images
+## Generator output the following images during the training
 ![](MNIST_cDCGAN_generation_animation.gif)
 
 ### Fashion MNIST 
@@ -40,7 +40,7 @@ python Homework_3/cDCGAN/tensorflow_F_MNIST_cDCGAN.py
 ## My result for Discriminator and Generator Loss
 ![](HW_F_MNIST_cDCGAN_train_hist.png)
 
-## With this loss the generator output the following images
+## Generator output the following images during the training
 ![](HW_F_MNIST_cDCGAN_generation_animation.gif)
 
 
