@@ -35,6 +35,8 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ![](MNIST_cGAN_generation_animation.gif)
 
 ## Fashion MNIST 
+Dataset
+MNIST Dataset contains greyscale 28x28 pixel images of 10 different classes of the clothes.
 ### Train Model from Scratch
 ```bash
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
@@ -44,7 +46,7 @@ python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ![](HW_F_MNIST_cGAN_train_hist.png)
 
 ### Final output of the generator after 1000 iteration during training
-![](HW_F_MNIST_cGAN_1000.png)
+![](F_MNIST.gif)
 
 
 ### Use Pretrained Model
