@@ -28,10 +28,10 @@ Dataset contains greyscale 28x28 pixel images of handwritten digits.
 python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ```
 
-## My result for Discriminator and Generator Loss
+## Graph shows result for Discriminator and Generator Training Loss
 ![](MNIST_cGAN_train_hist.png)
 
-## With this loss the generator output the following image sequence in gif
+## With thes losses the generator output the following image sequence in gif
 ![](MNIST_cGAN_100.gif)
 
 ## Fashion MNIST 
@@ -40,7 +40,7 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ```
 
-### My result for Discriminator and Generator Loss
+## Graph shows result for Discriminator and Generator Training Loss
 ![](HW_F_MNIST_cGAN_train_hist.png)
 
 ### With this loss the generator output the following image sequence in gif
