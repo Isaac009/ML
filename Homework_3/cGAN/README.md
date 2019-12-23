@@ -37,7 +37,9 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 
 ## Fashion MNIST 
 ### Dataset
-* [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) Dataset contains greyscale 28x28 pixel images of 10 different classes of the clothes.
+* [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) 
+### Summary¶
+Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms.
 
 ### Train Model from Scratch
 ```bash
