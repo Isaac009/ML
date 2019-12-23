@@ -32,7 +32,7 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ![](MNIST_cGAN_train_hist.png)
 
 ### Final output of the generator after 100 iteration during training
-![](MNIST_cGAN_100.png)
+![](MNIST_cGAN_generation_animation.gif)
 
 ## Fashion MNIST 
 ### Train Model from Scratch
