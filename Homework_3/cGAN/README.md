@@ -31,8 +31,8 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ## Graph shows result for Discriminator and Generator Training Loss
 ![](MNIST_cGAN_train_hist.png)
 
-## With thes losses the generator output the following image sequence in gif
-![](MNIST_cGAN_100.gif)
+## Final output of the generator after 100 iteration during training
+![](MNIST_cGAN_100.png)
 
 ## Fashion MNIST 
 ### Train Model from Scratch
