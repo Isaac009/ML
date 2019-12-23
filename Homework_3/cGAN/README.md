@@ -28,19 +28,26 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ## With this loss the generator output the following image sequence in gif
 ![](MNIST_cGAN_generation_animation.gif)
 
-## Use Pretrained Model
-### Load the model 
-
 ### Fashion MNIST 
+## Train Model from Scratch
 ```bash
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
+```
+
+## Use Pretrained Model
+### Load the model latest checkpoint
+```bash
+latest = tf.train.latest_checkpoint(checkpoint_dir)
+
+# Create a new model instance
+model = create_model()
+
+# Load the previously saved weights
+model.load_weights(latest)
 ```
 ## My result for Discriminator and Generator Loss
 ![](HW_F_MNIST_cGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
 ![](HW_F_MNIST_cGAN_generation_animation.gif)
-
-## Use Pretrained Model
-### Load the model 
 
