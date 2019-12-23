@@ -35,7 +35,7 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ![](MNIST_cGAN_generation_animation.gif)
 
 ## Fashion MNIST 
-Dataset
+### Dataset
 MNIST Dataset contains greyscale 28x28 pixel images of 10 different classes of the clothes.
 ### Train Model from Scratch
 ```bash
