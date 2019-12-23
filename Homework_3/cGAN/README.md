@@ -43,7 +43,7 @@ python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ## Graph shows result for Discriminator and Generator Training Loss
 ![](HW_F_MNIST_cGAN_train_hist.png)
 
-### Final output of the generator after 100 iteration during training
+### Final output of the generator after 1000 iteration during training
 ![](HW_F_MNIST_cGAN_1000.png)
 
 
