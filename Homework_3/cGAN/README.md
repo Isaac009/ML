@@ -19,22 +19,35 @@ x is a given input image or generated image by generator G when provided with ra
 ## Train CGAN
 If you cloned the whole repository 
 ### Classic MNIST 
+### Dataset
+* [MNIST](https://github.com/petewarden/tensorflow_ios/blob/master/tensorflow/g3doc/tutorials/mnist/download/index.md)
+Dataset contains greyscale 28x28 pixel images of handwritten digits.
+
+### Train The Model from the scratch
 ```bash
 python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ```
+
 ## My result for Discriminator and Generator Loss
 ![](MNIST_cGAN_train_hist.png)
 
 ## With this loss the generator output the following image sequence in gif
-![](MNIST_cGAN_generation_animation.gif)
+![](MNIST_cGAN_100.gif)
 
-### Fashion MNIST 
-## Train Model from Scratch
+## Fashion MNIST 
+### Train Model from Scratch
 ```bash
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ```
 
-## Use Pretrained Model
+### My result for Discriminator and Generator Loss
+![](HW_F_MNIST_cGAN_train_hist.png)
+
+### With this loss the generator output the following image sequence in gif
+![](HW_F_MNIST_cGAN_generation_animation.gif)
+
+
+### Use Pretrained Model
 ### Load the model latest checkpoint
 ```bash
 latest = tf.train.latest_checkpoint(checkpoint_dir)
@@ -45,9 +58,4 @@ model = create_model()
 # Load the previously saved weights
 model.load_weights(latest)
 ```
-## My result for Discriminator and Generator Loss
-![](HW_F_MNIST_cGAN_train_hist.png)
-
-## With this loss the generator output the following image sequence in gif
-![](HW_F_MNIST_cGAN_generation_animation.gif)
 
