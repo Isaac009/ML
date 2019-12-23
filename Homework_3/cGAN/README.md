@@ -16,6 +16,7 @@ x is a given input image or generated image by generator G when provided with ra
 * [Imageio](https://imageio.readthedocs.io/en/stable/installation.html)
 * [Numpy](https://docs.scipy.org/doc/numpy/user/install.html)
 
+
 ## Train CGAN
 If you cloned the whole repository 
 ### Classic MNIST 
@@ -37,6 +38,7 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ## Fashion MNIST 
 ### Dataset
 MNIST Dataset contains greyscale 28x28 pixel images of 10 different classes of the clothes.
+* [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist)
 ### Train Model from Scratch
 ```bash
 python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
