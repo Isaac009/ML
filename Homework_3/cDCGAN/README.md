@@ -18,17 +18,20 @@ DCGAN Architecture
 ## Train
 If you cloned the whole repository 
 ### Classic MNIST 
+### Dataset
+* [MNIST](https://github.com/petewarden/tensorflow_ios/blob/master/tensorflow/g3doc/tutorials/mnist/download/index.md)
+Dataset contains greyscale 28x28 pixel images of handwritten digits.
+### Train The Model from scratch
+
 ```bash
 python Homework_3/cDCGAN/tensorflow_MNIST_cDCGAN.py
 ```
+
 ## My result for Discriminator and Generator Loss
 ![](MNIST_cDCGAN_train_hist.png)
 
 ## With this loss the generator output the following images
 ![](MNIST_cDCGAN_generation_animation.gif)
-
-## Use Pretrained Model
-### Load the model 
 
 ### Fashion MNIST 
 ```bash
@@ -40,5 +43,15 @@ python Homework_3/cDCGAN/tensorflow_F_MNIST_cDCGAN.py
 ## With this loss the generator output the following images
 ![](HW_F_MNIST_cDCGAN_generation_animation.gif)
 
-## Use Pretrained Model
-### Load the model 
+
+### Use Pretrained Model
+### Load the model latest checkpoint
+```bash
+latest = tf.train.latest_checkpoint(checkpoint_dir)
+
+# Create a new model instance
+model = create_model()
+
+# Load the previously saved weights
+model.load_weights(latest)
+``` 
