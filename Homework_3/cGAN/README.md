@@ -31,7 +31,7 @@ python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
 ## Graph shows result for Discriminator and Generator Training Loss
 ![](MNIST_cGAN_train_hist.png)
 
-## Final output of the generator after 100 iteration during training
+### Final output of the generator after 100 iteration during training
 ![](MNIST_cGAN_100.png)
 
 ## Fashion MNIST 
@@ -43,8 +43,8 @@ python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ## Graph shows result for Discriminator and Generator Training Loss
 ![](HW_F_MNIST_cGAN_train_hist.png)
 
-### With this loss the generator output the following image sequence in gif
-![](HW_F_MNIST_cGAN_generation_animation.gif)
+### Final output of the generator after 100 iteration during training
+![](HW_F_MNIST_cGAN_1000.png)
 
 
 ### Use Pretrained Model
