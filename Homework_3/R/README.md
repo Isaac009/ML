@@ -22,11 +22,12 @@ If you cloned the whole repository
 Select session then set a working directory where the generated images will be saved.
 Then, on r studio just select the line to execute and click run otherwise select all file scipt and click run
 ```
-## Discriminator and Generator Loss During training
-![](mnist_loss.png)
 
 ## Generator Output after 150 training iteration steps
 ![](mnist.gif)
+
+## Discriminator and Generator Loss During training
+![](mnist_loss.png)
 
 ## Fashion MNIST
 ### Dataset
@@ -56,7 +57,12 @@ Each training and test example is assigned to one of the following labels:
 ## Generator Output after 300 training iteration steps
 ![](f_mnist_loss.png)
 
-## Use Pretrained Model
-### Load the model 
+## Use Trained Model
+### Save and Load the model 
+```bash
+save_model_hdf5(object, filepath, overwrite = TRUE,
+  include_optimizer = TRUE)
 
+load_mo\del_hdf5(filepath, custom_objects = NULL, compile = TRUE)
+```
 
