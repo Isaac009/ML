@@ -24,6 +24,10 @@ If you cloned the whole repository
 * [MNIST](https://github.com/petewarden/tensorflow_ios/blob/master/tensorflow/g3doc/tutorials/mnist/download/index.md)
 Dataset contains greyscale 28x28 pixel images of handwritten digits.
 
+MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+
+Images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes(0~9).
+
 ### Train The Model from the scratch
 ```bash
 python Homework_3/cGAN/tensorflow_MNIST_cGAN.py
@@ -69,7 +73,7 @@ python Homework_3/cGAN/tensorflow_F_MNIST_cGAN.py
 ![](F_MNIST.gif)
 
 
-### Use Pretrained Model
+### Use Trained Model
 ### Load the model latest checkpoint
 ```bash
 latest = tf.train.latest_checkpoint(checkpoint_dir)
