@@ -17,12 +17,13 @@ DCGAN Architecture
 
 ## Train
 If you cloned the whole repository 
-### Classic MNIST 
+### [Classic MNIST](https://github.com/petewarden/tensorflow_ios/blob/master/tensorflow/g3doc/tutorials/mnist/download/index.md) 
 ```bash
 Select session then set a working directory where the generated images will be saved.
 Then, on r studio just select the line to execute and click run otherwise select all file scipt and click run
 ```
-## My result for Discriminator and Generator Loss
+## Discriminator and Generator Loss During training
+![](mnist_loss.png)
 
 ## Generator Output after 150 training iteration steps
 ![](mnist.gif)
