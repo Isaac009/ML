@@ -52,6 +52,9 @@ Each training and test example is assigned to one of the following labels:
 ## Generator Output after 300 training iteration steps
 ![](r_f_mnist.gif)
 
+## Generator Output after 300 training iteration steps
+![](f_mnist_loss.png)
+
 ## Use Pretrained Model
 ### Load the model 
 
