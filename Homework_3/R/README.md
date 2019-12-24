@@ -18,6 +18,9 @@ DCGAN Architecture
 ## Train
 If you cloned the whole repository 
 ### [Classic MNIST](https://github.com/petewarden/tensorflow_ios/blob/master/tensorflow/g3doc/tutorials/mnist/download/index.md) 
+MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+
+Images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes(0~9).
 ```bash
 Select session then set a working directory where the generated images will be saved.
 Then, on r studio just select the line to execute and click run otherwise select all file scipt and click run
