@@ -63,6 +63,6 @@ Each training and test example is assigned to one of the following labels:
 save_model_hdf5(object, filepath, overwrite = TRUE,
   include_optimizer = TRUE)
 
-load_mo\del_hdf5(filepath, custom_objects = NULL, compile = TRUE)
+load_model_hdf5(filepath, custom_objects = NULL, compile = TRUE)
 ```
 
