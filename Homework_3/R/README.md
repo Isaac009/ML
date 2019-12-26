@@ -30,7 +30,7 @@ Then, on r studio just select the line to execute and click run otherwise select
 ![](mnist.gif)
 
 ## Discriminator and Generator Loss During training
-![](mnist_loss.png)
+![](mnist_l_graph.png)
 
 ## Fashion MNIST
 ### Dataset
